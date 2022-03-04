@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial--scale=1.0">
+        <title>PedidosPasteles</title>
+    </head>
+    <body>
+        <h1>Aqui se hace el pedido</h1>
+ 
+        <form action="pedido.js">
+            <label for="Nombre">Nombre</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">                    
+            <br>
+            <br>
+            <p>Accesorios</p>
+            <select name="Accesorios" id="Accesorios">
+                <option value="Velas">Velas</option>
+                <option value="Chispitas">Chispitas</option>
+                <option value="Numeros">Numeros</option>
+                <option value="Globos">Globos</option>
+                <option value="Nada">Nada</option>
+            </select>
+            <br><br>
+            <p>Envio a domicilio?</p>
+            <input type="radio" name="aqui" id="aquiollevar" value="">
+            <label for="Si">Si</label>
+            <input type="radio" name="llevar" id="aquiollevar" value="">
+            <label for="No">No</label>
+            <br><br>
+            <input type="reset">
+            <input type="submit">
+            <br><br>
+
+        </form>
+    </body>
+</html>

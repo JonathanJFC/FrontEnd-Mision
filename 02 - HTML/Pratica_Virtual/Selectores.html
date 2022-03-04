@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial--scale=1.0">
+        <title>Selectores</title>
+        <style>
+            /* COMENTAR CSS */
+
+            /* SELECTOR UNIVERSAL (DEFINIR UN ESTILO TODA LA PANTALLA) */
+            /* *{
+                font-family: Arial, Helvetica, sans-serif;
+            }*/
+
+
+            body{
+                background-color: dimgrey;
+            }
+
+            /* PARRAFOS */
+            p{
+                color: red;
+                text-align: center;
+            }
+
+            /* TITULOS */
+            #titulo{
+                color: blue;
+                text-align: right;                
+            }
+            
+            /* CLASES */
+            .izquierda{
+                color: green;
+                text-emphasis: left;
+            }
+
+             /* PARRAFO CON CLASES */
+            p.izquierda{
+                text-decoration: underline;
+            }
+
+             /* CONTRASTE */
+            .contraste{
+                background-color: black;
+            }
+
+            h1,h2, p{
+                font-weight: bold;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Head simple</h1>
+        <h2 id="titulo">Head con id titulo</h2>
+        <p>Parrafo simple</p>
+
+        <h3 class="izquierda"Prueba clase Header 3></h3>
+        <p class="izquierda">Prueba clase Parrafo</p>
+        <p class="izquierda contraste">Prueba multiples clases parrafo</p>
+   
+    </body>
+</html>

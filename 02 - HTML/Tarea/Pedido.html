@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial--scale=1.0">
+        <title>Taconauta</title>
+    </head>
+    <body>
+        <h1>Aqui se hace el pedido</h1>
+ 
+        <form action="pedido.js">
+            <label for="Nombre">Danos tu Nombre Taconauta</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+            <br><br>
+
+            <label for="mesa">Tu mesa (Esta el numero abajo)</label><br>
+            <input type="numbre" name="mesa" id="mesa" placeholder="4">
+
+            <p>Para aqui o para llevar?</p>
+            <input type="radio" name="aqui" id="aquiollevar" value="Aqui">
+            <label for="aqui">Aqui</label>
+            <input type="radio" name="llevar" id="aquiollevar" value="">
+            <label for="llevar">Llevar</label>
+
+            <p>Tacos de que?</p>
+            <input type="checkbox" name="mercurio" id="mercurio" value="Mercurio">
+            <label for="mercurio">Mercurio</label>
+            <input type="number" name="mercurioCuantos" id="mercurioCuantos" placeholder="Cuanto?">
+            <br>
+            <input type="checkbox" name="venus" id="venus" value="Venus">
+            <label for="venus">Venus</label>
+            <input type="number" name="venusCuantos" id="venusCuantos" placeholder="Cuanto?">
+
+            <p>Y para tomar?</p>
+            <select name="refresco" id="refresco">
+                <option value="Coca Cola">Coca Cola</option>
+                <option value="Fanta">Fanta</option>
+                <option value="Manzana">Manzana</option>
+                <option value="Sprite">Sprite</option>
+                <option value="Sangria">Sangria</option>
+                <option value="Mango">Mango</option>
+                <option value="Guayaba">Guayaba</option>
+            </select>
+
+            <br><br>
+            <input type="reset">
+            <input type="submit">
+            <br><br>
+
+        </form>
+    </body>
+</html>
